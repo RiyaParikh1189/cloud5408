@@ -9,7 +9,8 @@ def findFactorial(num):
         return num*findFactorial(num-1)
 
 if __name__ == '__main__':
-    number = int(input('Enter number to find factorial:'))
+    #number = int(input('Enter number to find factorial:'))
+    number=57
     if(number<0):
         print('Factorial of negative number does not exist.')
     else:
