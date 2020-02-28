@@ -13,6 +13,7 @@ def fibonacci(number):
             a,b=b,c
 
 if __name__ == '__main__':
-    steps=int(input("Enter number of steps:"))
+    #steps=int(input("Enter number of steps:"))
+    steps=15
     if(steps>=0):
         fibonacci(steps)
